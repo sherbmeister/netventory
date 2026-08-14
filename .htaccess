@@ -1,0 +1,10 @@
+DirectoryIndex index.php
+
+Options -Indexes
+ServerSignature Off
+
+<FilesMatch "^(config|auth)\\.php$">
+  Require all denied
+</FilesMatch>
+
+RedirectMatch 403 ^/(data|_sessions|vendor)(/|$)

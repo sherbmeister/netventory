@@ -1,0 +1,21 @@
+{
+    "types": [
+        "Server",
+        "VM",
+        "Router",
+        "Switch",
+        "AP",
+        "NAS",
+        "PC",
+        "Printer"
+    ],
+    "oses": [
+        "Linux",
+        "Windows",
+        "BSD",
+        "ESXi",
+        "TrueNAS",
+        "RouterOS",
+        "OPNsense"
+    ]
+}
