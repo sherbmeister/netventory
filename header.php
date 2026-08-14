@@ -217,7 +217,7 @@
       background:rgba(22,36,60,.45);
       padding:1.5rem;
     }
-    .auth-shell{ min-height:calc(100vh - 10rem); display:grid; place-items:start center; gap:1.5rem; padding:4.5rem 0 1.5rem; }
+    .auth-shell{ min-height:calc(100vh - 10rem); display:grid; place-items:start center; gap:.65rem; padding:4.5rem 0 1.5rem; }
     .auth-brand{ display:flex; align-items:center; gap:1rem; width:min(100%, 28rem); }
     .auth-brand h1{ font-size:2rem; font-weight:800; line-height:1; }
     .auth-brand p{ color:var(--muted); margin-top:.35rem; }
@@ -358,7 +358,7 @@
       .device-grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
       .device-tile{ min-height:8.8rem; }
       .detail-hero{ align-items:flex-start; }
-      .auth-shell{ place-items:start stretch; padding-top:1.25rem; }
+      .auth-shell{ place-items:start stretch; gap:.65rem; padding-top:1.25rem; }
       .auth-brand,.auth-card{ width:100%; }
       .detail-actions{ width:100%; }
       .detail-actions .btn{ flex:1 1 auto; }
